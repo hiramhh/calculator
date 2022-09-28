@@ -4,7 +4,7 @@
   "description": "calculator project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/hiramhh/calculator/issues"
   },
-  "homepage": "https://github.com/hiramhh/calculator#readme"
+  "homepage": "https://github.com/hiramhh/calculator#readme",
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
 }
